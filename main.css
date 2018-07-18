@@ -1,0 +1,23 @@
+     img {
+     position:absolute;
+     top:55px;
+     left:200px;
+      border-radius:50%;
+       border:dotted #0080ff;   
+       animation-name: spin;
+       animation-duration: 1s;
+       animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-play-state: 
+    
+     }
+    
+    @keyframes spin {
+        from{
+            transform:rotate(0deg);
+        }
+        to{
+            transform:rotate(100deg);
+        }
+        
+    }
